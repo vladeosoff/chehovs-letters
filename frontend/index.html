@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Письма Антона Павловича Чехова</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Письма Антона Павловича Чехова</h1>
+            <p class="subtitle">Корпус эпистолярного наследия</p>
+        </header>
+
+        <div class="toolbar">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Поиск в письмах..." aria-label="Поиск">
+                <button id="searchBtn">Найти</button>
+                <button id="resetBtn" class="reset-btn">Показать все</button>
+            </div>
+            <div class="stats" id="stats"></div>
+        </div>
+
+        <div class="letters-list" id="lettersList">
+            <div class="loading">Загрузка писем...</div>
+        </div>
+    </div>
+
+    <script src="/app.js" defer></script>
+</body>
+
+</html>
